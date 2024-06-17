@@ -1,0 +1,81 @@
+.cash-withdrawal-container {
+  background-color: #150b3e;
+  color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cash-withdrawal-container:hover {
+  transform: scale(1.05);
+}
+
+.balance-section {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.balance-label {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.balance-amount {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #382f5a;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.balance-text,
+.amount,
+.currency,
+.withdraw-heading,
+.choose-sum {
+  margin: 5px 0;
+}
+
+.amount {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.currency {
+  font-size: 16px;
+}
+
+.withdraw-section {
+  width: 100%;
+}
+
+.withdraw-heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.choose-sum {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.denominations-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.denominations-list li {
+  list-style-type: none;
+}

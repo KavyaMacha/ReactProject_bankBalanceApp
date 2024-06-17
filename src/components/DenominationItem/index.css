@@ -1,0 +1,28 @@
+.denomination-item {
+  display: flex;
+  justify-content: center;
+}
+
+.denomination-button {
+  background-color: #7c3aed;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  transition:
+    background-color 0.3s,
+    transform 0.3s;
+}
+
+.denomination-button:hover {
+  background-color: #5a28b7;
+  transform: translateY(-3px);
+}
+
+.denomination-button:active {
+  transform: translateY(0);
+  background-color: #4a1da0;
+}
